@@ -17,7 +17,7 @@ const Profile = () => {
   useGetAllAppliedJobs();
   const [open, setOpen] = useState(false);
   const { user } = useSelector((store) => store.auth);
-  console.log("User data:", user);
+  //console.log("User data:", user);
 
   return (
     <div>

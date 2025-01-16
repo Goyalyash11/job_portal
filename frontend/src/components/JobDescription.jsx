@@ -29,7 +29,7 @@ const JobDescription = () => {
         `${APPLICATION_API_END_POINT}/apply/${jobId}`,
         { withCredentials: true }
       );
-      console.log(res.data);
+      //console.log(res.data);
       if (res.data.sucess) {
         setIsApplied(true);
         const updateSingleJob = {
